@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "framework": "nextjs",
@@ -19,12 +13,6 @@
     "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
     "SUPABASE_STORAGE_BUCKET": "@supabase_storage_bucket",
     "NEXT_PUBLIC_META_PIXEL_ID": "@next_public_meta_pixel_id"
-  },
-  "functions": {
-    "pages/api/**/*.js": {
-      "maxDuration": 30,
-      "runtime": "nodejs18.x"
-    }
   },
   "headers": [
     {
