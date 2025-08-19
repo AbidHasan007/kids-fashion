@@ -3,17 +3,6 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "NEXTAUTH_URL": "@nextauth_url",
-    "NEXTAUTH_SECRET": "@nextauth_secret",
-    "JWT_SECRET": "@jwt_secret",
-    "DATABASE_URL": "@database_url",
-    "NEXT_PUBLIC_SUPABASE_URL": "@next_public_supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@next_public_supabase_anon_key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
-    "SUPABASE_STORAGE_BUCKET": "@supabase_storage_bucket",
-    "NEXT_PUBLIC_META_PIXEL_ID": "@next_public_meta_pixel_id"
-  },
   "headers": [
     {
       "source": "/api/(.*)",
